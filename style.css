@@ -7,7 +7,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 
 button{
@@ -54,11 +54,9 @@ nav > div:last-child{
 }
 
 section {
-    background-color: tomato;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
 }
 
 footer {
