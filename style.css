@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+.wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
 button{
     all: unset;
     background-color: rgb(233, 235, 135);
@@ -44,4 +51,16 @@ nav > div:first-child{
 
 nav > div:last-child{
     min-width: 300px;
+}
+
+section {
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+footer {
+    background-color: thistle;
 }
