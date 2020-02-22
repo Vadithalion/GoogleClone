@@ -4,6 +4,7 @@
 }
 
 .wrapper{
+    background-image: url(bk.jpg);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -20,7 +21,7 @@ button{
 
 a{
     all: unset;
-    color: black;
+    color: white;
     text-decoration: none;
     cursor: pointer;
 }
@@ -30,11 +31,13 @@ a:hover{
 }
 
 nav{
+    background: url(bknav1.jpg);
     display: flex;
     padding: 10px;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    border-style:outset;
 }
 
 nav > div{
