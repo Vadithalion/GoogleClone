@@ -24,6 +24,7 @@ a{
     color: white;
     text-decoration: none;
     cursor: pointer;
+    margin-left: 10px;
 }
 
 a:hover{
