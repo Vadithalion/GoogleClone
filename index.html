@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Clone</title>
+    <title>S.E.T.I.</title>
     <link rel="icon" href="Favicon.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
@@ -13,7 +13,7 @@
    <nav>
        <div class="nav">
         <a href="index.html">Inicio</a>
-        <a href="contacto.html">Encuentranos (tu primero)</a>
+        <a href="wiki.html">¿Quieres saber más?</a>
        </div>
        <div class="nav">
         <a href="https://www.seti.org/">Sobre SETI</a>
@@ -24,10 +24,42 @@
        </div>
    </nav>
 
-   <section>
-       <img src="https://www.google.es/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Img-google">
-       <input type="text" placeholder="escribe aqui">
-   </section>
+   <div class="parent">
+       <div class="txtinit">
+       <p id="descripcion">
+        SETI es el acrónimo del inglés search for extra terrestrial intelligence (búsqueda de inteligencia extraterrestre). Existen numerosos proyectos SETI, que tratan de encontrar vida extraterrestre inteligente, ya sea por medio del análisis de señales electromagnéticas capturadas en distintos radiotelescopios, o bien enviando mensajes de distintas naturalezas al espacio con la esperanza de que alguno de ellos sea contestado. Hasta la fecha (2019) no se ha detectado ninguna señal de claro origen extraterrestre, sin incluir la todavía sin definir Señal Wow!. No obstante, sí se ha llegado a detectar varios candidatos a señales SETI, de cuyas coordenadas celestes nunca se llegó a reobservar ninguna emisión (p. ej., Horowitz & Sagan (1993)).
+        </p>
+       </div>
+
+       <div>
+        <div class="container">  
+            <form id="contact" action="" method="post">
+              <h3>CONTACTANOS</h3>
+              <h4>Forma parte de la comunidad de busqueda espacial!</h4>
+              <fieldset>
+                <input placeholder="Nombre" type="text" tabindex="1" required autofocus>
+              </fieldset>
+              <fieldset>
+                <input placeholder="Correo electrónico" type="email" tabindex="2" required>
+              </fieldset>
+              <fieldset>
+                <input placeholder="Telefono" type="tel" tabindex="3" required>
+              </fieldset>
+            <!--  <fieldset>
+                <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+              </fieldset> -->
+              <fieldset>
+                <textarea placeholder="Escribenos tu mensaje..." tabindex="5" required></textarea>
+              </fieldset>
+              <fieldset>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
+              </fieldset>
+            </form>
+           
+            
+          </div>
+       </div>
+   </div>
 
    <footer>soy un footer</footer>
   </div>
