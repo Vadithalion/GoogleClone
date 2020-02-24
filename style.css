@@ -4,7 +4,7 @@
 }
 
 .wrapper{
-    background-image: url(bk.jpg);
+    /*background-image: url(bk.jpg);*/
     height: 100vh;
     display: flex;
     flex-direction: column;
