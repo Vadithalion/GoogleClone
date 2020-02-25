@@ -1,2 +1,2 @@
 # SETI web
-                                                        En construccion
+                                                     En construccion
